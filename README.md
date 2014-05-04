@@ -1,11 +1,24 @@
 ## Intelligent Selection project - Python Flask Skeleton for Google App Engine
 
-A skeleton for building Python applications on Google App Engine with the
-[Flask micro framework](http://flask.pocoo.org).
+Original site: https://github.com/GoogleCloudPlatform
 
-See our other [Google Cloud Platform github
-repos](https://github.com/GoogleCloudPlatform) for sample applications and
-scaffolding for other python frameworks and use cases.
+## Set up environment
+
+1. Brew installing on mac
+(on terminal) >> ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
+http://stackoverflow.com/questions/20381128/how-to-install-homebrew-on-mac-osx
+
+2. Python and PIP install
+(on terminal) >> brew install python
+http://stackoverflow.com/questions/17271319/installing-pip-on-mac-os-x
+
+3. ContextIO
+	>> git clone https://github.com/ContextIO/Python-ContextIO
+	>> cd Python-ContextIO
+	>> pip install rauth
+	>> sudo python setup.py install
+
+
 
 ## Run Locally
 1. Install the [App Engine Python SDK](https://developers.google.com/appengine/downloads).
